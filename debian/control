@@ -1,0 +1,12 @@
+Source: ros-hydro-grizzly-desktop
+Section: misc
+Priority: extra
+Maintainer: Yan Ma <yanma@clearpathrobotics.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-hydro-grizzly-desktop
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-grizzly-msgs, ros-hydro-grizzly-teleop, ros-hydro-grizzly-viz, ros-hydro-roboteq-msgs, ros-hydro-rqt-console, ros-hydro-rqt-robot-monitor
+Description: Metapackage of things you want to visualize and control Grizzly from a desktop.

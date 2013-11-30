@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>grizzly_desktop</name>
-  <version>0.1.1</version>
+  <version>0.1.2</version>
   <description>Metapackage of things you want to visualize and control Grizzly from a desktop.</description>
   <maintainer email="yanma@clearpathrobotics.com">Yan Ma</maintainer>
   <license>BSD</license>

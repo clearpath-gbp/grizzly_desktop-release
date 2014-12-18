@@ -1,0 +1,12 @@
+Source: ros-indigo-grizzly-desktop
+Section: misc
+Priority: extra
+Maintainer: Yan Ma <yanma@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-grizzly-desktop
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-grizzly-msgs, ros-indigo-grizzly-teleop, ros-indigo-grizzly-viz, ros-indigo-roboteq-msgs, ros-indigo-rqt-console, ros-indigo-rqt-robot-monitor
+Description: Metapackage of things you want to visualize and control Grizzly from a desktop.

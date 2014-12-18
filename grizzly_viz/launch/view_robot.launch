@@ -10,6 +10,7 @@
       linear_scale: 0.15
       angular_scale: 0.2
     </rosparam>
+    <remap from="twist_marker_server/cmd_vel" to="/cmd_vel" />
   </node>
   <node name="rviz" pkg="rviz" type="rviz" args="-d $(find grizzly_viz)/rviz/$(arg config).rviz" />
 </launch>

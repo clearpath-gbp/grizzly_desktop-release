@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>grizzly_viz</name>
-  <version>0.1.2</version>
+  <version>0.2.1</version>
   <description>Visualization and rviz helpers for Grizzly</description>
 
   <maintainer email="yanma@clearpathrobotics.com">Yan Ma</maintainer>

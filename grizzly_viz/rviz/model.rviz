@@ -3,11 +3,7 @@ Panels:
     Help Height: 78
     Name: Displays
     Property Tree Widget:
-      Expanded:
-        - /Global Options1
-        - /Status1
-        - /Grid1
-        - /RobotModel1
+      Expanded: ~
       Splitter Ratio: 0.5
     Tree Height: 663
   - Class: rviz/Selection
@@ -73,7 +69,6 @@ Visualization Manager:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-          Value: true
         base_footprint_bumper_part:
           Alpha: 1
           Show Axes: false
@@ -99,6 +94,10 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
+        imu_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
         sensor_anchor_link:
           Alpha: 1
           Show Axes: false
@@ -109,6 +108,55 @@ Visualization Manager:
       Update Interval: 0
       Value: true
       Visual Enabled: true
+    - Class: rviz/TF
+      Enabled: true
+      Frame Timeout: 15
+      Frames:
+        All Enabled: true
+        back_left_wheel:
+          Value: true
+        back_right_wheel:
+          Value: true
+        base_footprint:
+          Value: true
+        base_footprint_bumper_part:
+          Value: true
+        base_link:
+          Value: true
+        front_axle_link:
+          Value: true
+        front_left_wheel:
+          Value: true
+        front_right_wheel:
+          Value: true
+        imu_link:
+          Value: true
+        sensor_anchor_link:
+          Value: true
+      Marker Scale: 1.5
+      Name: TF
+      Show Arrows: true
+      Show Axes: true
+      Show Names: true
+      Tree:
+        base_footprint:
+          base_footprint_bumper_part:
+            {}
+          base_link:
+            back_left_wheel:
+              {}
+            back_right_wheel:
+              {}
+            front_axle_link:
+              front_left_wheel:
+                {}
+              front_right_wheel:
+                {}
+            sensor_anchor_link:
+              imu_link:
+                {}
+      Update Interval: 0
+      Value: true
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
@@ -129,6 +177,11 @@ Visualization Manager:
     Current:
       Class: rviz/Orbit
       Distance: 3.28768
+      Enable Stereo Rendering:
+        Stereo Eye Separation: 0.06
+        Stereo Focal Distance: 1
+        Swap Stereo Eyes: false
+        Value: false
       Focal Point:
         X: 0
         Y: 0
@@ -156,5 +209,5 @@ Window Geometry:
   Views:
     collapsed: false
   Width: 1535
-  X: 1978
+  X: 1985
   Y: 24

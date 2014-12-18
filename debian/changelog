@@ -1,0 +1,33 @@
+ros-indigo-grizzly-viz (0.2.1-0trusty) trusty; urgency=high
+
+
+
+ -- Yan Ma <yanma@clearpathrobotics.com>  Thu, 18 Dec 2014 05:00:00 -0000
+
+ros-indigo-grizzly-viz (0.2.0-0trusty) trusty; urgency=high
+
+  * Update rviz configurations.
+  * remap twist_marker_server/cmd_vel to /cmd_vel.
+  * Contributors: Mike Purvis, Shokoofeh Pourmehr
+
+ -- Yan Ma <yanma@clearpathrobotics.com>  Thu, 18 Dec 2014 05:00:00 -0000
+
+ros-indigo-grizzly-viz (0.1.2-0trusty) trusty; urgency=high
+
+  * Add dependency on robot_state_publisher.
+
+ -- Yan Ma <yanma@clearpathrobotics.com>  Sat, 30 Nov 2013 05:00:00 -0000
+
+ros-indigo-grizzly-viz (0.1.1-0trusty) trusty; urgency=high
+
+
+
+ -- Yan Ma <yanma@clearpathrobotics.com>  Sat, 30 Nov 2013 05:00:00 -0000
+
+ros-indigo-grizzly-viz (0.1.0-0trusty) trusty; urgency=high
+
+  * Initial grizzly_viz release
+
+ -- Yan Ma <yanma@clearpathrobotics.com>  Sat, 30 Nov 2013 05:00:00 -0000
+
+

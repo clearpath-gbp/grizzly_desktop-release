@@ -1,3 +1,28 @@
+## grizzly_desktop (kinetic) - 0.3.1-0
+
+The packages in the `grizzly_desktop` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release grizzly_desktop -t kinetic -r kinetic --new-track` on `Thu, 07 Jun 2018 13:43:33 -0000`
+
+These packages were released:
+- `grizzly_desktop`
+- `grizzly_viz`
+
+Version of package(s) in repository `grizzly_desktop`:
+
+- upstream repository: https://github.com/g/grizzly_desktop
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.3.1-0`
+
+Versions of tools used:
+
+- bloom version: `0.6.4`
+- catkin_pkg version: `0.4.3`
+- rosdep version: `0.12.2`
+- rosdistro version: `0.6.8`
+- vcstools version: `0.1.40`
+
+
 ## grizzly_desktop (indigo) - 0.2.1-0
 
 The packages in the `grizzly_desktop` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --track indigo -r indigo grizzly_desktop --new-track` on `Thu, 18 Dec 2014 21:09:58 -0000`

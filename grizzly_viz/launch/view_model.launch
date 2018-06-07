@@ -1,13 +1,19 @@
 <?xml version="1.0"?>
 <launch>
-  <!-- Standalone launch file to visualize the Grizzly URDF model. -->
-  <arg name="gui" default="True" />
-  <arg name="description" default="$(find grizzly_description)/urdf/base.urdf.xacro" />
 
-  <param name="robot_description" command="$(find xacro)/xacro '$(arg description)'" />
-  <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />
-  <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" />
+  <arg name="laser_enabled" default="$(optenv GRIZZLY_LMS1XX_ENABLED false)"/>
+  <arg name="kinect_enabled" default="false"/>
 
-  <param name="use_gui" value="$(arg gui)" />
+  <!-- Standalone launcher to visualize the robot model. -->
+  <include file="$(find grizzly_description)/launch/description.launch">
+    <arg name="laser_enabled" value="$(arg laser_enabled)"/>
+    <arg name="kinect_enabled" value="$(arg kinect_enabled)"/>
+  </include>
+
+  <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher">
+    <param name="use_gui" value="true" />
+  </node>
+
   <node name="rviz" pkg="rviz" type="rviz" args="-d $(find grizzly_viz)/rviz/model.rviz" />
+
 </launch>

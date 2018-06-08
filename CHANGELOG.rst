@@ -7,6 +7,11 @@ Changelog for package grizzly_viz
 * cleaning up package.xml and cmakelists
 * Contributors: Mohamed Elshatshat
 
+0.3.2 (2018-06-08)
+------------------
+* Removed unused args in launch file.
+* Contributors: Tony Baltovski
+
 0.3.1 (2018-06-07)
 ------------------
 * Removed un-needed deps and updated maintainer.

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package>
+  <name>grizzly_desktop</name>
+  <version>0.3.1</version>
+  <description>Metapackage of things you want to visualize and control Grizzly from a desktop.</description>
+  <maintainer email="tbaltovski@clearpathrobotics.com">Tony Baltovski</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <run_depend>grizzly_msgs</run_depend>
+  <run_depend>grizzly_viz</run_depend>
+
+  <export>
+    <metapackage/>
+  </export>
+</package>

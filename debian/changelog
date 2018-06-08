@@ -1,0 +1,53 @@
+ros-kinetic-grizzly-desktop (0.3.2-0jessie) jessie; urgency=high
+
+
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Fri, 08 Jun 2018 04:00:00 -0000
+
+ros-kinetic-grizzly-desktop (0.3.1-0jessie) jessie; urgency=high
+
+  * Removed un-needed deps and updated maintainer.
+  * 0.3.0
+  * Changes.
+  * Contributors: Tony Baltovski
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Thu, 07 Jun 2018 04:00:00 -0000
+
+ros-kinetic-grizzly-desktop (0.3.0-0jessie) jessie; urgency=high
+
+
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Thu, 07 Jun 2018 04:00:00 -0000
+
+ros-kinetic-grizzly-desktop (0.2.1-0jessie) jessie; urgency=high
+
+
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Thu, 18 Dec 2014 05:00:00 -0000
+
+ros-kinetic-grizzly-desktop (0.2.0-0jessie) jessie; urgency=high
+
+
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Thu, 18 Dec 2014 05:00:00 -0000
+
+ros-kinetic-grizzly-desktop (0.1.2-0jessie) jessie; urgency=high
+
+
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Sat, 30 Nov 2013 05:00:00 -0000
+
+ros-kinetic-grizzly-desktop (0.1.1-0jessie) jessie; urgency=high
+
+  * Add grizzly_desktop metapackage.
+  * Add grizzly_desktop metapackage.
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Sat, 30 Nov 2013 05:00:00 -0000
+
+ros-kinetic-grizzly-desktop (0.1.0-0jessie) jessie; urgency=high
+
+
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Sat, 30 Nov 2013 05:00:00 -0000
+
+
